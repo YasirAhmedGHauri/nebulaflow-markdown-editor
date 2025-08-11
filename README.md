@@ -105,7 +105,7 @@ A stellar, professional-grade markdown editor with cosmic features, advanced ani
 ```bash
 # Clone the repository
 git clone <repository-url>
-cd yasir-markdown-html-converter
+cd nebulaflow-markdown-editor
 
 # Install dependencies
 npm install
@@ -283,7 +283,7 @@ JWT_SECRET=your-secret-key
 ```bash
 # Fork and clone
 git clone https://github.com/your-username/yasir-markdown-html-converter.git
-cd yasir-markdown-html-converter
+cd nebulaflow-markdown-editor
 
 # Install dependencies
 npm install
