@@ -1,0 +1,11 @@
+{
+  "files": {
+    "main.css": "/nebulaflow-markdown-editor/static/css/main.6d0b2671.css",
+    "main.js": "/nebulaflow-markdown-editor/static/js/main.fb2d60b7.js",
+    "index.html": "/nebulaflow-markdown-editor/index.html"
+  },
+  "entrypoints": [
+    "static/css/main.6d0b2671.css",
+    "static/js/main.fb2d60b7.js"
+  ]
+}
