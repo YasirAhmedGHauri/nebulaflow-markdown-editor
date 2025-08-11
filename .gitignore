@@ -5,8 +5,9 @@ yarn-debug.log*
 yarn-error.log*
 
 # Production builds
-/client/build
-/client/dist
+client/build/
+client/dist/
+server/dist/
 
 # Environment variables
 .env
@@ -15,7 +16,7 @@ yarn-error.log*
 .env.test.local
 .env.production.local
 
-# IDE files
+# IDE and editor files
 .vscode/
 .idea/
 *.swp
@@ -43,6 +44,7 @@ pids
 
 # Coverage directory used by tools like istanbul
 coverage/
+*.lcov
 
 # nyc test coverage
 .nyc_output
@@ -52,6 +54,15 @@ jspm_packages/
 
 # Optional npm cache directory
 .npm
+
+# Optional eslint cache
+.eslintcache
+
+# Microbundle cache
+.rpt2_cache/
+.rts2_cache_cjs/
+.rts2_cache_es/
+.rts2_cache_umd/
 
 # Optional REPL history
 .node_repl_history
@@ -66,27 +77,31 @@ jspm_packages/
 .cache
 .parcel-cache
 
-# next.js build output
+# Next.js build output
 .next
 
-# nuxt.js build output
+# Nuxt.js build / generate output
 .nuxt
+dist
 
-# vuepress build output
-.vuepress/dist
+# Gatsby files
+.cache/
+public
 
-# Serverless directories
-.serverless
-
-# FuseBox cache
-.fusebox/
-
-# DynamoDB Local files
-.dynamodb/
-
-# TernJS port file
-.tern-port
+# Storybook build outputs
+.out
+.storybook-out
 
 # Temporary folders
 tmp/
 temp/
+
+# Backup files
+*.backup
+*.bak
+
+# Local development
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
