@@ -1,0 +1,31 @@
+{
+  "name": "nebulaflow-server",
+  "version": "1.0.0",
+  "description": "Backend server for Markdown to HTML converter",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "cors": "^2.8.5",
+    "marked": "^9.1.6",
+    "jspdf": "^2.5.1",
+    "html-pdf-node": "^1.0.8",
+    "helmet": "^7.1.0",
+    "compression": "^1.7.4"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  },
+  "keywords": [
+    "express",
+    "markdown",
+    "html",
+    "converter",
+    "api"
+  ],
+  "author": "Yasir",
+  "license": "MIT"
+}
